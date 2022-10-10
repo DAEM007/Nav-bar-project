@@ -1,35 +1,46 @@
+/* UNIVERSAL STYLES */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* BODY STYLES */
 body{
     font-family: cursive;
     text-transform: capitalize;
 }
 
-nav {
+
+/* Navbar styles */
+.nav-bar {
     background-color: rgb(137, 137, 233);
     width: 100%;
 }
 
-.list-items {
+/* logo styles */
+.nav-bar .max-width {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.list-item {
-    margin: 1em;
+/* navigation items styles */
+.nav-bar .list-items {
+    display: flex;
+}
+
+.nav-bar .list-item {
     list-style-type: none;
+    margin-right: 1.5em;
 }
 
-.list-item a {
+.nav-bar .list-item a {
     color: #fff;
     text-decoration: none;
 }
 
-.list-item i {
+.nav-bar .list-item i {
     margin-right: 5px;
 }
 
