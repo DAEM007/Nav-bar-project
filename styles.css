@@ -35,6 +35,16 @@ body{
     margin-right: 1.5em;
 }
 
+.nav-bar .list-item-bar {
+    display: none;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.nav-bar .list-item-bar .bars {
+    color: #fff;
+}
+
 .nav-bar .list-item a {
     color: #fff;
     text-decoration: none;
@@ -44,3 +54,15 @@ body{
     margin-right: 5px;
 }
 
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 500px) {
+    /* Nav responsive */
+    .nav-bar .list-item-bar {
+        display: block;
+    }
+
+    .nav-bar .list-item{
+        display: none;
+    }
+}
