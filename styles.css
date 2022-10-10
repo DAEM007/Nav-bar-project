@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+nav {
+    background-color: rgb(137, 137, 233);
+    width: 100%;
+    padding: 0.1em;
+}
+
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60em;
+}
+
+.list-item {
+    margin: 1em;
+    list-style-type: none;
+}
+
+.list-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-item i {
+    margin-right: 5px;
+}
